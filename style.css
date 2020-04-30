@@ -1,0 +1,368 @@
+body{ 
+	margin: 0;
+	background: white;
+	padding: 0;
+
+}
+
+
+header{
+	display: flex;
+	justify-content: space-between;
+	height: 40px;
+	padding: 30px;
+	align-items: center;
+}
+
+
+
+header .logo-holder{
+	flex: 0.5;
+	display: flex;
+	justify-content: center;
+
+}
+
+
+nav{
+	flex: 0.85;
+
+}
+
+nav ul{
+	display: inline-block;
+	list-style: none;
+	margin: 0;
+	padding-left: 100px;
+	
+}
+
+nav ul li{
+	display: inline-block;
+	margin-left: 20px;
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none;
+
+}
+
+nav ul li a{
+	display: inline-block;
+	text-decoration: none;
+	font-family: Montserrat;
+	color: black;
+	padding: 10px;
+	
+}
+
+.header{
+	background: url("https://i.imgur.com/Rcezczy.jpg");
+	background-repeat: no-repeat;
+  	background-size: cover;
+  	position; relative;
+ 
+}
+
+h1{
+	font-size: 46px;
+	font-family: Playfair Display;
+	font-weight: normal;
+}
+
+h2{
+	display: flex;
+	justify-content: left;
+	align-items: left;
+	font-family: Montserrat;
+	margin-top: 30px;
+	padding-left: 30px;
+	font-size: 33px;
+
+}
+
+section{
+	padding: 40px;
+	text-align: center;
+	justify-content: center;
+}
+
+p .subdetails{
+	width: auto;
+	font-family: Open Sans;
+	margin-bottom: 10px;
+
+
+}
+
+a.cta{
+	font-family: Montserrat;
+	background:#1005FF;
+	width: calc(10% - 1em);
+	display: block;
+	color: white;
+	border-radius: 20px;
+	padding: 1.2em;
+	text-decoration: none;
+	position: relative;
+	font-size: .5em;
+	margin: 3% auto 7%;
+}
+
+.group-21{
+	display: flex;
+	justify-content: column;
+	background-color: #F3F7F8;
+	
+}
+
+
+.about-us-holder{
+	flex: 0.5;
+	position: left;
+
+
+}
+p, .first-sub-about-us{
+	display: flex;
+	justify-content: center;
+	font-family: Playfair Display;
+	align-items: left;
+	margin-top: 5px;
+	padding: 30px;
+	font-size: 20px;
+}
+
+p, .second-sub-about-us{
+	display: flex;
+	justify-content: left;
+	align-items: left;
+	font-family: Open Sans;
+	margin-top: 5px;
+	padding: 30px;
+	font-size: 10px;
+	font-weight: none;
+}
+
+.handimages{
+	width: 100%;
+	flex: 0.5;
+
+
+}
+.image-stack {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    position: relative;
+ }
+
+.image-stack__item--top {
+      grid-column: 1 / span 3;
+      grid-row:1; 
+      padding-top: 20%; 
+
+ }
+
+ .image-stack__item--bottom {
+    grid-column: 1 / -1;
+    grid-row: 1;
+    padding-top: 20%; 
+    padding-left: 20%;
+    padding-top: 40%; 
+    z-index: 1;
+
+}
+.group-18{
+	 display: grid;
+
+}
+.product-images{
+
+
+
+}
+
+
+h3{
+	font-family: Montserrat;
+}
+
+h4{
+	font-family: Montserrat;
+	font-size: 33px;
+	padding-left: 30px;
+
+
+}
+
+.viewmore{
+	display: flex;
+	justify-content: space-between;
+	height: 50px;
+	padding: 30px;
+}
+
+.viewmore ul{
+	display: inline-block;
+	margin: 0;
+	align-text: right;
+	padding-right: 30px;
+	padding-top: 10px;
+	font-family: Montserrat;
+	font-weight: bold;
+}
+
+.group-17{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 60px;
+	background-color: black;
+	color: white;
+
+}
+
+ul .stats{
+	display: inline-block;
+	justify-content: center;
+	text-align: wrap;
+}
+
+.group-17 ul{
+	font-size: 1.2em;
+	display: inline-block;
+
+}
+
+.stats strong{
+	font-size: 1.4em;
+	font-family: Open Sans;
+}
+.stats span{
+	font-size: 1.0em;
+	font-family: Playfair Display;
+}
+
+.group-33{
+	display: flex;
+	justify-content: column;
+
+
+}
+
+.touch-container{
+	flex: 0.5;
+
+	text-align: left;
+
+}
+
+a.emailaddress{
+	font-family: Montserrat;
+	background:#1005FF;
+	width: calc(5% - 3em);
+	display: block;
+	color: white;
+	border-radius: 20px;
+	padding: 1.5em;
+	text-decoration: none;
+	position: relative;
+	font-size: .5em;
+	margin: 2% auto 7%;
+}
+
+.email-request{
+
+
+
+}
+
+.group-33 ul{
+	font-family: Playfair Display;
+
+}
+
+.imageholder img{
+
+	object-fit: scale-down;
+
+}
+
+.group-37{
+	display: flex;
+	flex-direction: row;
+	padding: 60px;
+	margin: 0px;
+	justify-content: space-between;
+	background-color: #F3F7F8;
+
+}
+
+footer{
+
+	background-color: black;
+
+}
+
+.container{
+	display: flex;
+	flex-direction: row;
+	padding: 10px;
+	margin: 0px;
+	justify-content: space-between;
+}
+
+.footer-container{
+	padding: 30px;
+	display: flex;
+	flex-direction: row;
+	background-color: black;
+	color: white;
+	font-family: Montserrat;
+}
+
+@media only screen and (min-width: 675px){
+
+
+
+	.productimages{
+		width: 50%;
+	}
+
+	.group17{
+		width: 50%;
+	}
+
+	.group37{
+		width: 25%;
+		justify-content: column;
+		
+	}
+
+	.viewmore{
+		width:;
+	}
+
+
+
+}
+
+
+
+
+	
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
